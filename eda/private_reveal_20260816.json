@@ -1,0 +1,51 @@
+{
+  "revealed_at": "2026-08-16",
+  "source": "user-reported authenticated Zindi submissions page after close",
+  "selected_pair_user_reported": [
+    {
+      "file": "submissions/sub_542_f1lock537_restore308.csv",
+      "zindi_id": "bNsDafsS",
+      "public_score": 0.925724375,
+      "private_score": 0.924647353,
+      "public_auc": 0.95947223,
+      "private_auc": 0.956779675,
+      "public_f1": 0.903225806,
+      "private_f1": 0.903225806
+    },
+    {
+      "file": "submissions/sub_537_or_stratum_s1_or_4m_308_533.csv",
+      "zindi_id": "2F9tRW8b",
+      "public_score": 0.923267266,
+      "private_score": 0.924790066,
+      "public_auc": 0.953329456,
+      "private_auc": 0.957136456,
+      "public_f1": 0.903225806,
+      "private_f1": 0.903225806
+    }
+  ],
+  "selected_pair_private_best": {
+    "zindi_id": "2F9tRW8b",
+    "private_score": 0.924790066
+  },
+  "stronger_unselected_private": [
+    {
+      "file": "submissions/sub_079b_feats_freelabels.csv",
+      "zindi_id": "MByz3fSc",
+      "public_score": 0.91473656,
+      "private_score": 0.930370162,
+      "public_auc": 0.948131724,
+      "private_auc": 0.962289042,
+      "public_f1": 0.892473118,
+      "private_f1": 0.909090909,
+      "delta_vs_selected_best_private": 0.005580096
+    },
+    {
+      "file": "submissions/sub_102b_integrated_076labels.csv",
+      "zindi_id": "WmJa7J1o",
+      "public_score": 0.914780055,
+      "private_score": 0.928342371,
+      "delta_vs_selected_best_private": 0.003552305
+    }
+  ],
+  "verdict": "public extras overfit the 333-row slice; selected pair private ~0.9248; unselected 079b private 0.93037"
+}

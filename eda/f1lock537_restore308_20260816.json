@@ -1,0 +1,33 @@
+{
+  "construction": "sub_537 add-only extras (16) kept; sub_308 scores restored on the other 1014 rows. Sibling fully rank-locks 537 labels with 308 order.",
+  "why": "537 max() lifted 532 of 571 sub_308 positives (mean +0.147) and lost 107 public AUC pairs. F1 is locked at the winning 168/23 cut.",
+  "files": [
+    {
+      "file": "submissions/sub_542_f1lock537_restore308.csv",
+      "sha256": "bf7f5a8e71b78196321ff5e1096a6f42cc9628c85348c4df198709db6475f20c",
+      "positives": 587,
+      "flips_vs_308": 16,
+      "flips_vs_537": 0,
+      "adds_vs_308": 16,
+      "drops_vs_308": 0,
+      "pearson_vs_308": 0.9981665918951502,
+      "spearman_vs_308": 0.997911761903124,
+      "n_unique": 1030
+    },
+    {
+      "file": "submissions/sub_543_f1lock537_ranklock308.csv",
+      "sha256": "ede07e61bae1e57d3d43670663439d5a7767dc3f29583940bc3bcdd7fc717ffe",
+      "positives": 587,
+      "flips_vs_308": 16,
+      "flips_vs_537": 0,
+      "adds_vs_308": 16,
+      "drops_vs_308": 0,
+      "pearson_vs_308": 0.9998179793342643,
+      "spearman_vs_308": 0.9999536352192674,
+      "n_unique": 1030
+    }
+  ],
+  "n_extras": 16,
+  "upload_performed": false,
+  "beat_537_certified": false
+}

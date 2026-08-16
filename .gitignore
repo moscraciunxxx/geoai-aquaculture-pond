@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local experiment debris — do not reintroduce
+data/processed/
+.quad-pipeline/
+catboost_info/
+tmp*/
+*.log
+.ipynb_checkpoints/
+scripts/repro_state/

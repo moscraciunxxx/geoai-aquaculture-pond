@@ -1,0 +1,14 @@
+{
+  "construction": "OR of two default-0.5 heads; RAUC=max; add-only vs first head",
+  "anchor": "submissions/sub_308_flagship_f1_transduction_rank.csv",
+  "other": "submissions/sub_533_seqheavy_c50_sub201.csv",
+  "file": "submissions/sub_536_or_max_308_533.csv",
+  "sha256": "1174a5c14aa059b69892763da515cdd008495a46224b606ab419d10100180335",
+  "upload_performed": false,
+  "positives": 600,
+  "flips_vs_308": 29,
+  "adds_vs_308": 29,
+  "drops_vs_308": 0,
+  "pearson_vs_308": 0.9709185094917335,
+  "spearman_vs_308": 0.990401491052693
+}

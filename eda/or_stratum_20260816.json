@@ -1,0 +1,49 @@
+{
+  "construction": "stratum-gated add-only OR; RAUC=max on allow mask else anchor",
+  "anchor": "submissions/sub_308_flagship_f1_transduction_rank.csv",
+  "other": "submissions/sub_533_seqheavy_c50_sub201.csv",
+  "stratum_counts": {
+    "s1_only": 273,
+    "four_month": 345,
+    "s1_or_four": 532
+  },
+  "files": [
+    {
+      "gate": "s1",
+      "file": "submissions/sub_538_or_stratum_s1only_308_533.csv",
+      "sha256": "533bd027e5bd4de7f2b89a23228721b0b58467e74a8b3fade2c79e29ba2085e1",
+      "allow_rows": 273,
+      "positives": 580,
+      "flips_vs_308": 9,
+      "adds_vs_308": 9,
+      "drops_vs_308": 0,
+      "pearson_vs_308": 0.9805264759520848,
+      "spearman_vs_308": 0.976188390580669
+    },
+    {
+      "gate": "m4",
+      "file": "submissions/sub_539_or_stratum_4m_308_533.csv",
+      "sha256": "ead1dc7dea1513f132c093cff9e66959738eae216af134205cb3f187576b4b5f",
+      "allow_rows": 345,
+      "positives": 581,
+      "flips_vs_308": 10,
+      "adds_vs_308": 10,
+      "drops_vs_308": 0,
+      "pearson_vs_308": 0.9794599516680308,
+      "spearman_vs_308": 0.9754247004855209
+    },
+    {
+      "gate": "s1_or_m4",
+      "file": "submissions/sub_537_or_stratum_s1_or_4m_308_533.csv",
+      "sha256": "d7303f5167763761bcd57cdbb86d038476c6feb7bf68bcf0e4a8d7d826f45ea3",
+      "allow_rows": 532,
+      "positives": 587,
+      "flips_vs_308": 16,
+      "adds_vs_308": 16,
+      "drops_vs_308": 0,
+      "pearson_vs_308": 0.9729415265120134,
+      "spearman_vs_308": 0.9697704814318637
+    }
+  ],
+  "upload_performed": false
+}

@@ -1,0 +1,12 @@
+# Python 3.10 recommended. Notebook path needs:
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+lightgbm==4.7.0
+catboost==1.2.10
+torch==2.3.1
+nbconvert==7.17.1
+matplotlib==3.10.9
+
+# Optional: run validator / tests only need numpy+pandas (stdlib csv ok for tests).
